@@ -15,7 +15,6 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-  </header>
   
     <picture>
 
@@ -28,12 +27,12 @@
       <source srcset="images/museum-640x640.jpg,
                       images/museum-1280x1280.jpg 2x,
                       images/museum-1920x1920.jpg 3x"
-              media="(min-width: 1280px)">
+              media="(min-width: 1280px) and (max-width: 1599px)">
 
        <source srcset="images/museum-480x480.jpg,
                       images/museum-960x960.jpg 2x,
                       images/museum-1440x1440.jpg 3x"
-              media="(min-width: 960px)">
+              media="(min-width: 960px) and (max-width: 1279px)">
 
       <!-- landscape images for 960px and below-->
        
@@ -60,6 +59,7 @@
       <img src="images/museum.jpg" alt="museum-room-with-chairs">
 
     </picture>
+  </header>
 </body>
 
 </html>
